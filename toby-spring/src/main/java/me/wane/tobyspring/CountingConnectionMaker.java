@@ -2,7 +2,9 @@ package me.wane.tobyspring;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import org.springframework.stereotype.Component;
 
+@Component
 public class CountingConnectionMaker implements ConnectionMaker {
 
   private int counter;
