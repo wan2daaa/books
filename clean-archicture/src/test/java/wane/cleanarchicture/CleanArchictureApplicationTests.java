@@ -1,13 +1,13 @@
-package me.wane.tobyspring;
+package wane.cleanarchicture;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TobySpringApplicationTests {
+class CleanArchictureApplicationTests {
 
-  @Test
-  void contextLoads() {
-  }
+	@Test
+	void contextLoads() {
+	}
 
 }
